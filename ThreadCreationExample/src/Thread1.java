@@ -1,5 +1,5 @@
 
-public class Thread1 extends Thread{
+public class Thread1 implements Runnable{
 	
 	@Override
 	public void run() {
