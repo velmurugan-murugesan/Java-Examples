@@ -15,7 +15,7 @@ public class Thread1 implements Runnable {
 		// TODO Auto-generated method stub
 		
 		for (; i < 100; i++) {
-			System.out.println(" i = "+i+ " Added by "+Thread.currentThread().getName());
+			System.out.println(" i = "+i+ " Added by Thread"+Thread.currentThread().getName());
 		}
 	}
 

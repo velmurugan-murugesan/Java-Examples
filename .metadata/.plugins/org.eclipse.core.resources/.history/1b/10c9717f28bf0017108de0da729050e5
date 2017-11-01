@@ -13,10 +13,7 @@ public class Thread1 implements Runnable {
 	@Override
 	public void run() {
 		// TODO Auto-generated method stub
-		
-		for (; i < 100; i++) {
-			System.out.println(" i = "+i+ " Added by "+Thread.currentThread().getName());
-		}
+		System.out.println("Thread that extends Thread");
 	}
 
 }
