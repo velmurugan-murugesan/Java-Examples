@@ -3,7 +3,7 @@ public class ThreadCreationExample {
 	public static void main(String[] args) {
 		
 		
-		Thread t1 = new Thread(new Thread1());
+		Thread1 t1 = new Thread1();
 		t1.start();
 		
 		
