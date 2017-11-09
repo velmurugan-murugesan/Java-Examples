@@ -1,3 +1,9 @@
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.concurrent.Executors;
+
 public class ExceptionExample {
 
    /*
@@ -33,10 +39,16 @@ public class ExceptionExample {
         Checked Exception
          */
         //FileNotFoundException
-
-        /*FileReader fileReader = new FileReader("C:/velm");
-        BufferedReader bufferedReader = new BufferedReader(fileReader);*/
-
+        try {
+            FileReader fileReader = new FileReader("C:/velm");
+            BufferedReader bufferedReader = new BufferedReader(fileReader);
+        }
+        catch (FileNotFoundException e){
+            System.out.println("FileNotFoundException");
+        }
+        catch (Exception e){
+            System.out.println("General Exception");
+        }
 
     /*
     Unchecked Exception
@@ -53,7 +65,17 @@ public class ExceptionExample {
         System.out.println(val);*/
 
         //ArrayIndexOutOfBoundsException
-        int[] a = new int[5];
-        System.out.println(a[10]);
+        try {
+            int[] a = new int[5];
+            System.out.println(a[10]);
+        }
+        catch (ArithmeticException e){
+            System.out.println("ArithmeticException ");
+        }catch (ArrayIndexOutOfBoundsException e){
+            System.out.println("ArrayIndexOutOfBoundsException ");
+        }
+        System.out.println("Continue");
+
+
     }
 }
