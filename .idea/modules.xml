@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/CollectionsExample/CollectionsExample.iml" filepath="$PROJECT_DIR$/CollectionsExample/CollectionsExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExceptionExamples/ExceptionExample.iml" filepath="$PROJECT_DIR$/ExceptionExamples/ExceptionExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/Java-Examples.iml" filepath="$PROJECT_DIR$/Java-Examples.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinkedListImplExample/LinkedListImplExample.iml" filepath="$PROJECT_DIR$/LinkedListImplExample/LinkedListImplExample.iml" />
     </modules>
   </component>
 </project>
