@@ -1,6 +1,9 @@
+import java.util.HashMap;
+
 public class LinkedListExample {
 
     public static void main(String[] args) {
+
 
         LinkedList linkedList = new LinkedList();
 
